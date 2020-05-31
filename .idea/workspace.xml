@@ -2,33 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df2f5797-b967-4519-9782-4fb57a1aacc7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_resource_server_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_resource_server_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/src/main/java/pl/haladyj/ss15_ex1_RS/Ss15Ex1RsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/src/main/java/pl/haladyj/ss15_ex1_RS/configuration/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/src/main/java/pl/haladyj/ss15_ex1_RS/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ex1_RS/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/entity/Authority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/entity/AuthorityName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/security/model/SecurityUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/service/JpaUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/configuration/AuthServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/configuration/AuthServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/configuration/UserManagementConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/configuration/UserManagementConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ex1_AS/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -55,7 +40,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss15_ex1_AS/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pawel\IdeaProjects\A_SELF\spring-security15_exercise_1\ss15_ex1_AS\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.haladyj.ss15_ex1_AS.entity" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Ss15Ex1AsApplication">
     <configuration name="Ss15Ex1AsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -105,29 +98,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1590923680184">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1590947798803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590923680184" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590947798803" />
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590862765186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590862765186" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1590946231044">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1590948152669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590946231044" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1590946231043">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590948152669" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1590948152669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590946231043" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1590946231043">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590948152669" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1590948152669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590946231043" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1590946231043">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590948152669" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1590948152669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590946231043" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590948152669" />
   </component>
 </project>

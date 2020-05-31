@@ -3,6 +3,14 @@ spring:
     url: jdbc:mysql://localhost:3306/ss15_ex1_entity?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
     password: root
+    initialization-mode: always
+    continue-on-error: true
+  jpa:
+    generate_ddl: true
+    hibernate:
+      auto-dll: update
+
+
 
 server:
   port: 8300
