@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-security15_exercise_1.iml" filepath="$PROJECT_DIR$/.idea/spring-security15_exercise_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss15_ex1_AS/ss15_ex1_AS.iml" filepath="$PROJECT_DIR$/ss15_ex1_AS/ss15_ex1_AS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss15_ex1_RS/ss15_ex1_RS.iml" filepath="$PROJECT_DIR$/ss15_ex1_RS/ss15_ex1_RS.iml" />
     </modules>
   </component>
 </project>

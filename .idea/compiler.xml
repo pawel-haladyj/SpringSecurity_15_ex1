@@ -7,15 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ss15_ex1_AS" />
+        <module name="ss15_ex1_RS" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ss15_ex1_AS" target="11" />
+      <module name="ss15_ex1_RS" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ss15_ex1_AS" options="-parameters" />
+      <module name="ss15_ex1_RS" options="-parameters" />
     </option>
   </component>
 </project>
