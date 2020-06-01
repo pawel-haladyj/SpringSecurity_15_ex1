@@ -37,3 +37,19 @@ CREATE TABLE IF NOT EXISTS users(
     password VARCHAR (50),
     username VARCHAR (50)
 );
+
+CREATE TABLE IF NOT EXISTS oauth_access_token(
+    token_id VARCHAR (100) PRIMARY KEY,
+    token BLOB,
+    authentication_id VARCHAR (100),
+    user_name VARCHAR (100),
+    client_id VARCHAR (100),
+    authentication BLOB,
+    refresh_token VARCHAR (100)
+);
+
+CREATE TABLE IF NOT EXISTS oauth_refresh_token(
+    token_id VARCHAR (100) PRIMARY KEY,
+    token BLOB,
+    authentication BLOB
+);

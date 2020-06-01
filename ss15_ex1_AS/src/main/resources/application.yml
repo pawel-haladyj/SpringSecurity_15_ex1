@@ -10,7 +10,5 @@ spring:
     hibernate:
       auto-dll: update
 
-
-
 server:
   port: 8300
