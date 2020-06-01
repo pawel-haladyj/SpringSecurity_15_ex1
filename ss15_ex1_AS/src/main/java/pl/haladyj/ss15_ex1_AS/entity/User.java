@@ -9,7 +9,7 @@ import java.util.Objects;
 
 @Table(name="users")
 @Entity
-public class User implements Serializable{
+public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

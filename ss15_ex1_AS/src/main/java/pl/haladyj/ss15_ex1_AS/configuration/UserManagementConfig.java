@@ -17,7 +17,18 @@ public class UserManagementConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     public UserDetailsService userDetailsService(){
-        return new JpaUserDetailsService();
+       // return new JpaUserDetailsService();
+        var uds = new InMemoryUserDetailsManager();
+
+        var user = User
+                .withUsername("alan")
+                .password("12345")
+                .authorities("read")
+                .build();
+
+        uds.createUser(user);
+
+        return uds;
     }
 
     @Bean

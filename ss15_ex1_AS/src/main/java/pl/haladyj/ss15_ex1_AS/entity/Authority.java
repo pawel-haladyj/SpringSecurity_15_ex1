@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
-public class Authority implements Serializable {
+public class Authority {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

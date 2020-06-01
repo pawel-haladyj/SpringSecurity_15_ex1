@@ -4,10 +4,12 @@
     <list default="true" id="df2f5797-b967-4519-9782-4fb57a1aacc7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/configuration/AuthServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/configuration/AuthServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/configuration/UserManagementConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/configuration/UserManagementConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/entity/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/entity/Authority.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ex1_AS/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ex1_AS/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/security/model/SecurityUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_AS/src/main/java/pl/haladyj/ss15_ex1_AS/security/model/SecurityUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ex1_RS/src/main/java/pl/haladyj/ss15_ex1_RS/configuration/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_RS/src/main/java/pl/haladyj/ss15_ex1_RS/configuration/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ex1_RS/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ex1_RS/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss15_ex1_RS/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-security15" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,8 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ss15Ex1AsApplication" />
         <item itemvalue="Application.Ss15Ex1RsApplication" />
+        <item itemvalue="Application.Ss15Ex1AsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -103,22 +105,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590862765186" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1590994401657">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591003739673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590994401657" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1590994401656">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591003739673" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591005610176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590994401656" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1590994401656">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591005610176" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591005610175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590994401656" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1590994401657">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591005610175" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591005610175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590994401657" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591005610175" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591005610175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591005610175" />
+    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1590995543612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="263" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590995543612" />
     <state x="607" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590994035002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

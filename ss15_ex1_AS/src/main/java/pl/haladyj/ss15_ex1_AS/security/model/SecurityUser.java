@@ -5,6 +5,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import pl.haladyj.ss15_ex1_AS.entity.User;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
