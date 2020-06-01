@@ -4,7 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ss15_ex1_AS/pom.xml" />
+        <option value="$PROJECT_DIR$/ss15_ex1_RS/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="11.0.6" project-jdk-type="JavaSDK" />
 </project>

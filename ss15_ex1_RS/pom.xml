@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>pl.haladyj</groupId>
-	<artifactId>ss15_ex1_AS</artifactId>
+	<artifactId>ss15_ex1_RS</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ss15_ex1_AS</name>
+	<name>ss15_ex1_RS</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -27,6 +27,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
